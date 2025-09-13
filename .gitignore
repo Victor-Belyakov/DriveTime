@@ -1,0 +1,32 @@
+# --------------------
+# Symfony
+# --------------------
+/symfony/var/
+/symfony/vendor/
+/symfony/public/build/
+/symfony/.env.local
+/symfony/.phpunit.cache
+
+# IDE
+/.idea/
+/.vscode/
+/*.iml
+
+# --------------------
+# Node / frontend
+# --------------------
+/symfony/node_modules/
+/symfony/package-lock.json
+/symfony/yarn.lock
+
+# --------------------
+# Docker
+# --------------------
+/docker/php/xdebug.ini
+/db_data/
+
+# --------------------
+# OS
+# --------------------
+.DS_Store
+Thumbs.db
